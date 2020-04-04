@@ -1,0 +1,141 @@
+revoked, unrevoked
+262328, 28341276
+Bloom Filter Cascade
+level, insert, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 28341276, 2862, 0.00010, 628701, 19.17297
+level, insert, lookup, # fp's, fp, memory(bytes), bits per item
+2, 2862, 262328, 28, 0.00011, 6859, 19.17261
+level, insert, lookup, # fp's, fp, memory(bytes), bits per item
+3, 28, 2862, 0, 0.00000, 67, 19.14286
+bfc insert time
+1.277507
+bf lookup time
+560.860068
+
+revoked, unrevoked
+262328, 28341276
+Cuckoo Filter Cascade
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 276134, 0.50, 28341276, 1750, 0.000061747, 1048576, 31.97755
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+2, 1750, 1842, 0.85, 262328, 1769, 0.006743466, 4096, 18.72457
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+3, 1769, 1862, 0.86, 1750, 1750, 1.000000000, 4096, 18.52346
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+4, 1750, 1842, 0.85, 1769, 0, 0.000000000, 4096, 18.72457
+cfc insert time
+0.639189
+cf lookup time
+0.217491
+
+revoked, unrevoked
+262328, 28341276
+Cuckoo Filter Semi-Sort Cascade
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 276134, 0.50, 28341276, 13838, 0.000488263, 786439, 23.98338
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+2, 13838, 14566, 0.84, 262328, 13691, 0.052190388, 24583, 14.21188
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+3, 13691, 14411, 0.84, 13838, 13838, 1.000000000, 24583, 14.36447
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+4, 13838, 14566, 0.84, 13691, 4, 0.000292163, 24583, 14.21188
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+5, 4, 4, 1.00, 13838, 9, 0.000650383, 13, 26.00000
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+6, 9, 9, 1.00, 4, 4, 1.000000000, 19, 16.88889
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+7, 4, 4, 1.00, 9, 0, 0.000000000, 13, 26.00000
+cfc insert time
+0.928264
+cf lookup time
+0.784110
+
+revoked, unrevoked
+262328, 28341276
+Vacuum Filter Cascade
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 276134, 0.89, 28341276, 3095, 0.000109205, 589824, 17.98737
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+2, 3095, 3257, 0.76, 262328, 2432, 0.009270837, 8192, 21.17480
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+3, 2432, 2560, 0.59, 3095, 2426, 0.783844911, 8192, 26.94737
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+4, 2426, 2553, 0.59, 2432, 2432, 1.000000000, 8192, 27.01401
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+5, 2432, 2560, 0.59, 2426, 0, 0.000000000, 8192, 26.94737
+vfc insert time
+0.656311
+vf lookup time
+0.239704
+
+revoked, unrevoked
+262328, 28341276
+Vacuum Filter Cascade
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 276134, 0.50, 28341276, 13838, 0.000488263, 786439, 23.98338
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+2, 13838, 14566, 0.84, 262328, 13691, 0.052190388, 24583, 14.21188
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+3, 13691, 14411, 0.84, 13838, 13838, 1.000000000, 24583, 14.36447
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+4, 13838, 14566, 0.84, 13691, 10, 0.000730407, 24583, 14.21188
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+5, 10, 10, 1.00, 13838, 19, 0.001373031, 19, 15.20000
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+6, 19, 20, 0.59, 10, 9, 0.900000000, 55, 23.15789
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+7, 9, 9, 1.00, 19, 19, 1.000000000, 19, 16.88889
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+8, 19, 20, 0.59, 9, 0, 0.000000000, 55, 23.15789
+vfssc insert time
+0.927435
+vf lookup time
+0.782157
+
+revoked, unrevoked
+262328, 28341276
+Vacuum Filter Cascade
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 276134, 0.50, 28341276, 13838, 0.000488263, 786439, 23.98338
+2, 13838, 14566, 0.84, 262328, 13691, 0.052190388, 24583, 14.21188
+3, 13691, 14411, 0.84, 13838, 13838, 1.000000000, 24583, 14.36447
+4, 13838, 14566, 0.84, 13691, 10, 0.000730407, 24583, 14.21188
+5, 10, 10, 1.00, 13838, 19, 0.001373031, 19, 15.20000
+6, 19, 20, 0.59, 10, 9, 0.900000000, 55, 23.15789
+7, 9, 9, 1.00, 19, 19, 1.000000000, 19, 16.88889
+8, 19, 20, 0.59, 9, 0, 0.000000000, 55, 23.15789
+vfssc insert time
+2.823968
+vf lookup time
+2.523925
+
+revoked, unrevoked
+262328, 28341276
+Vacuum Filter Cascade
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 276134, 0.89, 28341276, 3095, 0.000109205, 589824, 17.98737
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+2, 3095, 3257, 0.76, 262328, 2432, 0.009270837, 8192, 21.17480
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+3, 2432, 2560, 0.59, 3095, 2426, 0.783844911, 8192, 26.94737
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+4, 2426, 2553, 0.59, 2432, 2432, 1.000000000, 8192, 27.01401
+level, insert, n, load factor, lookup, # fp's, fp, memory(bytes), bits per item
+5, 2432, 2560, 0.59, 2426, 0, 0.000000000, 8192, 26.94737
+vfc insert time
+1.728466
+vf lookup time
+0.723857
+
+revoked, unrevoked
+262328, 28341276
+Bloom Filter Cascade
+level, insert, lookup, # fp's, fp, memory(bytes), bits per item
+1, 262328, 28341276, 2862, 0.00010, 628701, 19.17297
+2, 2862, 262328, 28, 0.00011, 6859, 19.17261
+3, 28, 2862, 0, 0.00000, 67, 19.14286
+bfc insert time
+3.784465
+bf lookup time
+1701.801625
+
