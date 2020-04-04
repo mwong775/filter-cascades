@@ -1,4 +1,4 @@
-# filter-cascades
+# Filter Cascades
 Comparisons and evaluations for performance and memory efficiency of various filter cascade data structures.
 
 Overview
