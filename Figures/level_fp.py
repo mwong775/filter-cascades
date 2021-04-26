@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
 import csv
 
 data = np.genfromtxt('level_fp.csv',delimiter=',', dtype = float)
@@ -36,6 +37,7 @@ plt.legend(loc = "upper right", fontsize = 18, ncol = 2)
 plt.xlabel("Filter Level", fontsize = 24)
 #plt.ylabel("Bits per Item")
 plt.ylabel("False Positive Rates", fontsize = 24)
+plt.yaxis.set_major_formatter(mtick.PercentFormatter())
 plt.savefig("level_fp.png")
 plt.show()
 

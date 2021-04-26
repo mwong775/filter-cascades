@@ -14,7 +14,7 @@
 #define ROUNDDOWN(a, b) ((a) - ((a) % (b)))
 #define ROUNDUP(a, b) ROUNDDOWN((a) + (b - 1), b)
 //const int big_seg = 262144;
-const int AR = 4;
+const int AR = 4; // I think this is alternate range...
 const int BATCH_SIZE = 128;
 
 inline int find_the_highest_bit(int v)
